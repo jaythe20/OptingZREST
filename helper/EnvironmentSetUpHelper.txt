@@ -1,0 +1,11 @@
+// How to Set Up node-mongo environment - Assuming that VM is just being created
+
+1. sudo apt install git
+2. sudo apt install nodejs
+3. sudo apt install nodejs-legacy
+4. sudo apt install npm
+5. set up mongo server on local host - http://ourownjava.com/mongodb/install-mongodb-linux-mint/
+6. Add user in dbs
+7. Install studio 3T and postamn to test REST API
+8. Install webstorm
+9. Start programming

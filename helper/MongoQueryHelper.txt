@@ -1,0 +1,38 @@
+//Mongo Query Syntax Helper
+
+
+***GET
+1. Model.find(conditions, [fields], [options], [callbacks])
+-  E.g. collection.find({condition 1: '1'}, function(err, results){}
+
+2. Model.findOne(conditions, [fields], [options], [callbacks])
+
+3. Model.findById(id,[fields], [options], [callbacks])
+
+4. Model.where(path, [val]);
+   E.g. collection.where('discount').gte(10).lt(20),exec(function(err,results){}
+
+***Update and Remove
+5. Model.update(conditions, update, [options], [callback])
+   E.g.
+   var condition = { memberName : 'Jay'}
+   var update = {workYesterday : true};
+   collection.update(conditions, update, function (err, numberAffected, rawResponse){}
+
+   P.S. [options]
+     upsert - create doc if doesnt exist - false default
+     multi - update multiple doc if condition matches
+
+6. Model.remove(condition, [callback])
+   E.g. collection.remove(condition, function(err){}
+
+
+7. Model.findByIdAndUpdate(id, update, [options], [callback])
+
+
+8. Model.findByIdAndRemove(id, [options], [callback])
+
+
+*** Insert
+8. Model.save(callback)
+   E.g. collection.save(function(err){});

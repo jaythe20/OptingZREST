@@ -1,0 +1,27 @@
+{
+  "name": "optingzrest",
+  "version": "1.0.0",
+  "description": "REST API to serve OptingZ service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaythe20/OptingZREST.git"
+  },
+  "author": "Jay Thakkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaythe20/OptingZREST/issues"
+  },
+  "homepage": "https://github.com/jaythe20/OptingZREST#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.3",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.4",
+    "morgan": "^1.8.1"
+  }
+}
