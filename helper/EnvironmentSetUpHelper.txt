@@ -8,4 +8,8 @@
 6. Add user in dbs
 7. Install studio 3T and postamn to test REST API
 8. Install webstorm
-9. Start programming
+
+
+npm install -- it will install all required packages
+npm run mongoImport -- it will import data into mongodb
+

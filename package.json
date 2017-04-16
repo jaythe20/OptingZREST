@@ -4,7 +4,8 @@
   "description": "REST API to serve OptingZ service",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "importData" : "mongoimport --jsonArray --db optingz --collection TestProducts --file ./helper/rawData.json "
   },
   "repository": {
     "type": "git",

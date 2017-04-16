@@ -7,6 +7,8 @@ var router = express.Router();
 var productController = require('../controllers/product.server.controller.js');
 
 router.get('/', function(req, res, next) {
+    if(req.query.import)
+            return productController.Import(req,res);
     return productController.GetAll(req,res);
 });
 
@@ -28,7 +30,7 @@ router.delete('/:id', function (req, res) {
     return productController.Delete(req, res);
 });
 
-router.get('/import', function (req, res) {
+router.get('/?import=true', function (req, res) {
     return productController.Import(req, res);
 });
 

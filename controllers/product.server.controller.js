@@ -2,6 +2,7 @@
  * Created by jaythe20 on 15/04/17.
  */
 var product = require('../models/product.server.model.js');
+var fs = require('fs');
 
 exports.GetAll = function (req, res) {
     product.find({},function (err, results) {
@@ -49,6 +50,15 @@ exports.Delete = function (req, res){
 };
 
 exports.Import = function (req, res) {
+
+    var obj = JSON.parse(fs.readFileSync('./helper/rawData.json','utf8'));
+    if(err) console.log("hole" + err);
+    product.create(obj,function (err) {
+        if(err)
+            return console.log("Hola" + err);
+        return "success";
+    });
+
     /*productDAL.create(
      {title : "T1", "author": "A1", "publication": "P1", "price" : 101, "isRead" : true},
      {title : "T2", "author": "A2", "publication": "P2", "price" : 102, "isRead" : false},
