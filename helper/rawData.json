@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Gmail",
+    "description": "One of the best email service on planet",
+    "website": "www.gmail.com",
+    "category": "Email Sites",
+    "productType": "website"
+  },
+  {
+    "name": "Hotmail",
+    "description": "Email service by Microsoft",
+    "website": "www.hotmail.com",
+    "category": "Email Sites",
+    "productType": "website"
+  },
+  {
+    "name": "Yahoo Mail",
+    "description": "Email Service by Yahoo",
+    "website": "www.mail.yahoo.com",
+    "category": "Email Sites",
+    "productType": "website"
+  },
+  {
+    "name": "YouTube",
+    "description": "One of the best video streaming site  on planet",
+    "website": "www.youtube.com",
+    "category": "Video Streaming Sites",
+    "productType": "website"
+  },
+  {
+    "name": "Daily Motion",
+    "description": "One of the most popular video streaming site",
+    "website": "www.dailymotion.com",
+    "category": "Video Streaming Sites",
+    "productType": "website"
+  },
+  {
+    "name": "Netflix",
+    "description": "Top paid video streaming site",
+    "website": "www.netflix.com",
+    "category": "Video Streaming Sites",
+    "productType": "website"
+  },
+  {
+    "name": "Facebook",
+    "description": "One of the best social netwroking site on planet",
+    "website": "www.facebook.com",
+    "category": "Social Networking Sites",
+    "productType": "website"
+  },
+  {
+    "name": "Twitter",
+    "description": "One of the social networking site",
+    "website": "www.twitter.com",
+    "category": "Social Networking Sites",
+    "productType": "website"
+  },
+  {
+    "name": "Instagram",
+    "description": "One of the best photo sharing site",
+    "website": "www.instagram.com",
+    "category": "Social Networking Sites",
+    "productType": "website"
+  }
+]
