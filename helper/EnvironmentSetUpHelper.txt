@@ -5,6 +5,10 @@
 3. sudo apt install nodejs-legacy
 4. sudo apt install npm
 5. set up mongo server on local host - http://ourownjava.com/mongodb/install-mongodb-linux-mint/
+    -- Add user :
+    1. use [dbname]
+    2.db.createUser({user: "jaythe2012", pwd:"kernel2012",
+                       roles: [ "readWrite", "dbAdmin" ]})
 6. Add user in dbs
 7. Install studio 3T and postamn to test REST API
 8. Install webstorm
