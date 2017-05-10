@@ -4,9 +4,8 @@
 var mongoose = require('mongoose');
 var schema = mongoose.Schema;
 
-var productTypes = ["software", "website", "store", "brand"]
+var productTypes = ["software", "website", "store", "brand"];
 var productSchema = new schema({
-    _id : {type: String},
     name : {type: String, required : true},
     description : {type: String, default: "This is default description for product"},
     website : {type: String},

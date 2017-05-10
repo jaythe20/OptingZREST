@@ -34,20 +34,4 @@ router.get('/?import=true', function (req, res) {
     return productController.Import(req, res);
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 module.exports = router;

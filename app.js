@@ -9,6 +9,7 @@ var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
 var product = require('./routes/product');
+var item = require('./routes/item');
 
 var mongoose = require('mongoose');
 var mongoURI = "mongodb://jaythe2012:kernel2012@localhost:27017/optingz";
@@ -36,6 +37,8 @@ app.use(cookieParser());
 
 app.use('/',index);
 app.use('/products', product);
+app.use('/items', item);
+
 
 //catch 404 and forward to error handler
 app.use(function (req, res, next) {

@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "importData" : "mongoimport --jsonArray --db optingz --collection TestProducts --file ./helper/rawData.json "
+    "importData" : "mongoimport --jsonArray --db optingz --collection TestProducts --file ./helper/rawData.json ",
+    "importData2" : "mongoimport --jsonArray --db optingz --collection Items --file ./helper/rawDataSchema2.json "
+
   },
   "repository": {
     "type": "git",
